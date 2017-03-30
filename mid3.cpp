@@ -11,8 +11,6 @@
 using namespace std;
 double getPonderal(double mass, double height);
 
-#define U
-
 #ifdef U
 void unit_test(float threshold);
 #endif
@@ -22,8 +20,8 @@ int main(int argc, char *argv[])
    //Set default values
    double mass   = 1.0;
    double height = 1.0;
-   float threshold = 0.01;
 #ifdef U
+   float threshold = 0.01;
    if (argc < 2) {
       cout << "No input was detected.                  \n";
       cout << "                                        \n";
