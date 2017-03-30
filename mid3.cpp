@@ -231,7 +231,7 @@ void unit_test(float threshold)
       {      153.086627,  75.267482,   17.826726},
       {      153.086627,  76.474839,   18.016858 }};
    
-   for (int i=0; i<159; i++) {
+   for (int i=0; i<160; i++) {
       cout << setw(10) << left << fixed << setprecision(5);
       cout << data[i][0] << " " << data[i][1] << " " << data[i][2] << "  " <<
          getPonderal(data[i][0], data[i][1]);
